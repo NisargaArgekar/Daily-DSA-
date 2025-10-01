@@ -2,7 +2,7 @@
 
 public class CountDigits{
     public static void main(String[] args){
-        int n = 12345678;
+        int n = 123456780;
         int count = 0;
         int temp = n;
         while(temp > 0){
@@ -12,6 +12,64 @@ public class CountDigits{
         System.out.println("Digits: " + count);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

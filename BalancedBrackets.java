@@ -17,7 +17,7 @@ public class BalancedBrackets {
             char ch = arr[i];
             if(ch == '(' || ch =='{' || ch=='['){
                 stack.push(ch);
-            } 
+            }
             else if(ch == ')' || ch=='}' || ch == ']') {
                 char bracket = stack.pop();
                 if((ch == ')' && bracket != '(') ||
@@ -28,7 +28,6 @@ public class BalancedBrackets {
                 }
             }
         }
-
         if(stack.isEmpty()){
             return "balanced";
         } else  {
@@ -36,5 +35,4 @@ public class BalancedBrackets {
         }
 
     }
-    
 }

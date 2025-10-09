@@ -1,4 +1,4 @@
-//Primitive Data Types 
+//Primitive Data Types
 
 // String
 let name = 'Nisa';
@@ -8,7 +8,7 @@ console.log(name);
 let num = 36;
 console.log(num);
 
-// Boolean 
+// Boolean
 let isCoder = true;
 console.log(isCoder);
 

@@ -12,10 +12,18 @@ let fruits = ["apple", "Mango" ,"Cherry"];
 fruits.forEach(fruit => process.stdout.write(fruit + " "));
 
 // Higher order function 
-// Map 
+// Map +
 
 
 let num = [1, 2, 3];
 let squared = num.map(num =>num*num);
 console.log(num);
 console.log(squared);
+
+
+// Filter 
+let numb = [1,2,3,4,5];
+let evenNumbers = numb.filter(num => num % 2 === 0);
+console.log("Initial Numbers: ",numb);
+console.log("After found out even numbers: ",evenNumbers);
+

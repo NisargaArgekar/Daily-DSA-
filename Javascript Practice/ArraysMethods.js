@@ -27,3 +27,9 @@ let evenNumbers = numb.filter(num => num % 2 === 0);
 console.log("Initial Numbers: ",numb);
 console.log("After found out even numbers: ",evenNumbers);
 
+//  Reduce 
+
+let num1 = [1,2,3,4,5,6,7];
+let sum = num1.reduce((sum , num1) => sum + num1 , 0);
+console.log("Number given for sum: ",num1);
+console.log("Calculating all Numbers:",sum);

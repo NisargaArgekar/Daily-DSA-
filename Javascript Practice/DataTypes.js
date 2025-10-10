@@ -29,7 +29,6 @@ let uniqueId = Symbol();
 console.log(uniqueId);
 
 // Non - Primitive DataTypes
-
 let person = {
     name: "Nisa",
     id: 101

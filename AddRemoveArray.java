@@ -15,5 +15,13 @@ public class AddRemoveArray {
             String purchasedItem = sc.next();
             supplies.remove(purchasedItem);
         }
+
+        for(int i=0; i<supplies.size(); i++){
+            if(i < supplies.size() - 1){
+                System.out.print(supplies.get(i)+ ",");
+            } else {
+                System.out.print(supplies.get(i));
+            }
+        }
     }
 }

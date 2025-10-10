@@ -30,5 +30,4 @@ public class MaxSubArray {
 
         return result;
     }
-    
 }

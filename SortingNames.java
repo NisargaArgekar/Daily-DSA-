@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class SortingNames {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        TreeSet <String> names = new TreeSet<>();
+        for(int i=0; i<n; i++){
+            String name = sc.nextLine();
+            names.add(name);
+        }
+
+        for(String name : names){
+            System.out.println(name);
+        }
+    }
+    
+}

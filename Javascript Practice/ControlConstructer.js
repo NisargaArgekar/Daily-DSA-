@@ -129,19 +129,36 @@ do{
 
 
 //Do-While Loop: ATM machine: Keep asking PIN until the user enters 1234.
-let pin;
-do {
-    prompt("Enter PIN:");
-    pin = Number(pin); //pin = parseInt(prompt("Enter your pin"));
-} while(pin !== 1234);
-console.log("PIN correct. Access granted");
+// let pin;
+// do {
+//     prompt("Enter PIN:");
+//     pin = Number(pin); //pin = parseInt(prompt("Enter your pin"));
+// } while(pin !== 1234);
+// console.log("PIN correct. Access granted");
 
 
 //For…of Loop - Print all fruits in a basket.
 
+let fruits = ["apple","banana","cherry"];
+console.log(fruits);
+for(let fruit of fruits){
+console.log(fruit);
+}
+
 //For…in - Print all student details from an object.
+let student = {name : "John" , age : "22" , grade: "A"};
+console.log(student);
+for(let key in student){
+    console.log(key + ": " + student[key]);
+    console.log(key);
+    console.log(student.name);
+    console.log(student.age);
+    console.log(student.grade);
+}
 
 //forEach Loop - Print the squares of all numbers in an array.
+let numbers = [1,2,3,4,5];
+numbers.forEach(num => console.log(num * num));
 
 
 

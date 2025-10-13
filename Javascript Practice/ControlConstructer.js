@@ -104,15 +104,19 @@ switch(month) {
 //---------- Looping constructs ---------------------
 
 //For Loop - Print the first 10 natural numbers.
-let n = 10;
 console.log("Ten first Natural Numbers: ");
-for(let i=0; i<n; i++){
+for(let i=1; i<10; i++){
    console.log(i);
 }
  
 
 
 //While Loop - Print numbers from 1 to 5 using while loop.
+let i = 1;
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
 
 
 //Do-While Loop: ATM machine: Keep asking PIN until the user enters 1234.

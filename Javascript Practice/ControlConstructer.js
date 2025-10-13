@@ -47,9 +47,52 @@ if(marks >= 40){
 
 
 //Switch Case 1. Print the grade based on letter (A=Excellent, B=Good, C=Average, D=Poor).
+
+
+let grade = 'H';
+switch(grade) {
+    case 'A':
+        console.log("Excellent");
+        break;
+    case 'B':
+        console.log("Good");
+        break;
+    case 'C':
+        console.log("Average");
+        break;
+    case 'D':
+        console.log("Poor");
+        break;
+    default:
+        console.log("Invalid Grade");
+}
+
 //2. print the season based on months in the year (3,4,5 - summer) (11,12,1,2 - winter) (6,7,8,9 - rainy)
-
-
+let month = 1;
+switch(month) {
+    case 11:
+    case 12:
+    case 1:
+    case 2:
+        console.log("winter");
+        break;
+   
+    case 3:
+    case 4:
+    case 5:
+        console.log("Summer");
+        break;
+    
+    case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+        console.log("Rainy");
+        break;
+    default:
+        console.log("Invalid Month");
+}
 
 
 

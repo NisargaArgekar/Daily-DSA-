@@ -122,11 +122,19 @@ while (i <= 5) {
 //Do - while print first 5 multiples of 2.
 let j = 1;
 do{
-    console.log(j * 2);
+    // console.log(j * 2);
+    process.stdout.write((j*2) + " - ");
     j++;
 } while(j <= 5);
-//Do-While Loop: ATM machine: Keep asking PIN until the user enters 1234.
 
+
+//Do-While Loop: ATM machine: Keep asking PIN until the user enters 1234.
+let pin;
+do {
+    prompt("Enter PIN:");
+    pin = Number(pin); //pin = parseInt(prompt("Enter your pin"));
+} while(pin !== 1234);
+console.log("PIN correct. Access granted");
 
 
 //For…of Loop - Print all fruits in a basket.

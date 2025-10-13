@@ -117,8 +117,14 @@ while (i <= 5) {
     console.log(i);
     i++;
 }
+//check condition later increment 
 
-
+//Do - while print first 5 multiples of 2.
+let j = 1;
+do{
+    console.log(j * 2);
+    j++;
+} while(j <= 5);
 //Do-While Loop: ATM machine: Keep asking PIN until the user enters 1234.
 
 

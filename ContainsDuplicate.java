@@ -24,20 +24,43 @@
 
 // Better approach using Sorting with --Time Complexity: o(n log n) --Space Complexity: o(1)
 
-import java.util.Arrays;
+// import java.util.Arrays;
+
+// public class ContainsDuplicate{
+//     public static void main(String[] args) {
+//         int[] num = {1,7,2,3,7};
+//         System.out.println(Duplicate(num));
+//     }
+
+//     public static boolean Duplicate(int[] num){
+//         Arrays.sort(num);
+//         for(int i=1; i<num.length; i++){
+//             if(num[i] == num[i-1]){
+//                 return true;
+//             }
+//         }
+//         return false;
+//     }
+// }
+
+
+//Optimal Solution for this with time complexity: o(n) and space complexity : o(n)
+
+import java.util.HashSet;
 
 public class ContainsDuplicate{
     public static void main(String[] args) {
-        int[] num = {1,7,2,3,7};
+        int[] num = {1,2,3,2,4};
         System.out.println(Duplicate(num));
     }
 
     public static boolean Duplicate(int[] num){
-        Arrays.sort(num);
-        for(int i=1; i<num.length; i++){
-            if(num[i] == num[i-1]){
-                return true;
+        HashSet<Integer> seen = new HashSet<>();
+        for(int x : num){
+            if(seen.contains(x)){
+                 return true;
             }
+           seen.add(x);
         }
         return false;
     }

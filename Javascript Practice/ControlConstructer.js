@@ -33,7 +33,17 @@ if(number > 0){
 
 
 //Nested If - A student passes if marks ≥ 40. If marks ≥ 80, show “Distinction”.
-
+let marks = 89;
+if(marks >= 40){
+    if(marks >= 80){
+        console.log("Distinction");
+    }
+    else {
+        console.log("Pass");
+    } 
+} else {
+        console.log("Not Distinction");
+    }
 
 
 //Switch Case 1. Print the grade based on letter (A=Excellent, B=Good, C=Average, D=Poor).

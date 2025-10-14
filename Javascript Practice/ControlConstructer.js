@@ -171,6 +171,12 @@ numbers.forEach(num => console.log(num * num));
 // ------------------ control flow modifiers------------------------
 
 //Break Statement - Question: Stop printing when number reaches 3.
+for(let i=1; i<=5; i++){
+    if(i === 3){
+        break;
+    }
+    console.log(i);
+}
 
 //Continue Statement -Question: Skip printing number 3.
 

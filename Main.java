@@ -1,31 +1,12 @@
-public class Main 
-{
+public class Main {
     public static void main(String[] args) {
+        Student s = new Student();
 
-        Person p1 = new Person();
+        s.age = 20;
+        s.name = "lisa";
+        s.marks = 90;
 
-        p1.name = "Nisa";
-        p1.age = 22;
-        p1.email = "hello@gmail.com";
-        p1.work();
-        p1.eat();
-        p1.sleep();
-
-
-        Person p2 = new Person();
-        p2.name = "john";
-        p2.age = 25;
-        p2.email = "john@gmail.com";
-
-        p2.work();
-        p2.eat();
-        p2.sleep();
-
-        System.out.println(p1.name);
-        System.out.println(p2.name);
-        System.out.println(p1.age);
-        System.out.println(p2.age);
-        System.out.println(p1.email);
-        System.out.println(p2.email);
-    }
+        s.study();
+        s.eat();
+        s.eat();    }
 }

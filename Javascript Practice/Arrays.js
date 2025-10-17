@@ -1,16 +1,15 @@
-// Array 
+// Array
 let fruits = ["apple" , "banana", "cherry"];
 console.log(fruits[0]);
 
 
 //Array Operation
 
-// 1. Adding elements 
+// 1. Adding elements
 // push()
 let vehicles = ["car", "truck", "train"];
 vehicles.push("bus");
 console.log(vehicles);
-
 
 //unshift()
 let numbers = [2,3,4];
@@ -99,7 +98,7 @@ let scores = [50, 70, 90, 100];
 console.log(scores.find(x => x > 80));
 console.log(scores.findIndex(x => x > 80));
 
-// 13. Fill 
+// 13. Fill
 let fillArr = [1,2,3,4];
 fillArr.fill(0,1,3);
 console.log(fillArr);

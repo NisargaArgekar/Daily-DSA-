@@ -65,6 +65,9 @@ console.log(digits);
 digits.reverse();
 console.log(digits);
 
+
+
+
 // 8.Transforming(Higher Order Functions)
 // 1.map()
 let arr = [1,2,3,4];
@@ -97,6 +100,10 @@ console.log(nested.flat(2));
 let scores = [50, 70, 90, 100];
 console.log(scores.find(x => x > 80));
 console.log(scores.findIndex(x => x > 80));
+
+
+
+
 
 // 13. Fill
 let fillArr = [1,2,3,4];
